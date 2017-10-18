@@ -1,0 +1,13 @@
+15th, Jun, 2016
+
+app.filter('dateSuffix', function($filter) {
+    var suffixes = ["th", "st", "nd", "rd"];
+    return function(input) {
+        var dtfilter = $filter('date')(input, 'd MM yyyy');
+        var day = parseInt(dtfilter.split(" ")[0]);
+        var relevantDigits = (day < 30) ? day % 20 : day % 30;
+        var suffix = (relevantDigits <= 3) ? suffixes[relevantDigits] : suffixes[0];
+        var index = (day < 10) ? 1 : 2;
+        return dtfilter.slice(0, index) + suffix + dtfilter.slice(index);
+    };
+});

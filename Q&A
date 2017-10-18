@@ -1,0 +1,62 @@
+1.
+compdef: unknown command or service: git
+compdef: unknown command or service: git
+solution:
+compaudit | sudo xargs chmod g-w
+compaudit | sudo xargs chown root
+rm ~/.zcompdump*
+compinit
+
+2.
+如果不能update OX或者一直处于waiting状态
+solution:
+试着在终端打开open $(getconf DARWIN_USER_CACHE_DIR)/com.apple.appstore
+并删除里面所有文件
+再尝试关掉app store并restart电脑
+
+3.
+push code 触发不了pipeline
+solution：
+在pipeline设置里面将https该为git
+
+4.
+check 32 or 64 bit
+solution:
+终端输入：uname -m
+
+5.
+git有conflict
+solution：
+有conflict：
+step1：手动merge；
+step2：git add ‘merge后的文件’；
+step3：git rebase —continue;
+step4:  git push
+
+6.
+查找文件夹目录以及查找文件目录
+solution：
+find / -name "sdk"
+find / -type f -name "config.yml"
+
+7.
+岳岳谈话
+1.PDCA(戴明圆环).PLAN-DO-CHECK-ACTION
+2.了解外界，提高自己
+3.学东西一个一个来，不能同时多个
+4.TWU的spring版本我都不知道。。。
+5.我说我可以独立地做story，但并没有独立做过。
+
+8.
+创建邮件分组
+solution：
+1、登陆Gmail之后，展开左边的菜单，会看到“Create new label”
+2、选择并创建，输入名称，比如“China区邮件”，创建完成之后，在左边的菜单会看到它
+3、返回Inbox界面，右上角找到配置按钮，选择“Settings”
+4、切换到Tab“Filters and Blocklist”
+5、选择“Create a new filter”
+6、然后会弹出一个窗口，编辑规则。
+
+比如我这里想把所有发给中国区的邮件放到新创建的“China区邮件”中。
+选择发送给谁“To”为 china@thoughtworks.com
+然后“Create filter with this search”

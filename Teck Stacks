@@ -1,0 +1,59 @@
+列表
+ADT:抽象数据类型ADT
+
+Node 与 Express
+事件驱动编程 VS 多线程编程
+http://www.xiaoyaochong.net/wordpress/index.php/2013/03/24/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BA%8B%E4%BB%B6%E9%A9%B1%E5%8A%A8%E7%BC%96%E7%A8%8B%E5%AF%B9%E6%AF%94/
+
+函数式编程 VS 面向对象
+
+单页应用 VS 多页应用
+
+JavaScript（闭包/异步/回调/promise/event/prototype/继承）
+
+css3
+
+clojure
+
+angular
+
+react
+
+android
+
+设计模式
+
+meta-programming
+
+Gradle VS Gulp
+1 .前后端分离架构
+2 .自动化构建（build）
+3 .HTML Template Tools:HANL/JADA
+CSS Precompiler:LESS/SASS
+JS precompiler:Coffee script/ECMA script
+Test Runner:JtestDriver/karma/Cucumber.js
+Test Framework:jasmine
+JS E2E Test:Selenium/Protractor
+Grant/Gulp
+tasks
+
+underscore
+http://blog.csdn.net/adeyi/article/details/17611467
+http://www.cnblogs.com/samwu/p/4493456.html
+http://www.jb51.net/article/32783.htm
+http://www.css88.com/doc/underscore1.8.2/          API
+http://www.css88.com/archives/4728
+
+xvfb
+
+vim
+
+Linux/shell
+
+regression test（回归测试）
+
+提高性能
+http://www.codeceo.com/article/javascript-high-performance.html?from=groupmessage&isappinstalled=1
+
+jenkins/travisCI
+
